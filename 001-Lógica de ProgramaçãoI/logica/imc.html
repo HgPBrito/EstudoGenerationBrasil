@@ -22,4 +22,15 @@
 	var imc = calculaImc(pesoInformado, alturaInformada);
 
 	escreve(nomeInformado + ", o seu IMC é: " + imc);
+
+	if(imc < 18.5) {
+		mostra ("você esta abaixo do recomendado");
+	}else if(imc > 35) {
+		mostra ("você esta acima do recomendado");
+	}
+	if(imc >= 18.5 && imc <= 35) {					
+		mostra ("você esta acima do recomendado");		
+	}
+
+
 </script>

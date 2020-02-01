@@ -1,0 +1,22 @@
+<meta charset = "utf-8">
+
+<script>
+
+	function pulaLinha() {
+		document.write("<br>");		
+	}
+
+	function escreve(string) {
+		document.write(string);
+		pulaLinha();
+	}
+
+	var contador = 20;
+
+	while(contador >= 0) {	
+		escreve(contador);	
+		contador --;	
+	}
+
+	escreve("FIM");
+</script>

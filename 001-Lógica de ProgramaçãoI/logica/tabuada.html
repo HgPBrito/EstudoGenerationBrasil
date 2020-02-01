@@ -1,0 +1,20 @@
+<meta charset = "utf-8">
+
+<script>
+
+	function pulaLinha() {
+		document.write("<br>");
+	}
+
+	function escreve(string) {
+		document.write(string);
+		pulaLinha();
+	}
+
+	var multiplicador = 1;
+
+	while(multiplicador <= 10) {
+		escreve("7 x " + multiplicador + " = " + (7 * multiplicador) );
+		multiplicador ++;
+	}
+</script>
