@@ -18,18 +18,26 @@
 	}
 	var numero = parseInt(prompt("Quer que sorteie até quanto?"));
 	var numeroPensado = sorteia(numero);
-	var chute = parseInt(prompt("Qual seu chute?"));
+	var tentativas = 1;
 
-	if(chute == numeroPensado) {
-		escreve("Você acertou!!");
-	} else {
-		if(chute < numeroPensado) {
-			escreve("Você errou, o numero pensado é maior!");
+	while(tentativas <= 3){
+		var chute = parseInt(prompt("Qual seu chute?"));
+
+		if(chute == numeroPensado) {
+			escreve("Você acertou!!");
+			break;
 		} else {
-			escreve("Você errou, o numero pensado é menor!");
+			if(chute < numeroPensado) {
+				escreve("Você errou, o numero pensado é maior!");
+			} else {
+				escreve("Você errou, o numero pensado é menor!");
+			}			
+			tentativas++;
 		}
-
-		escreve("Você errou, o numero pensado foi: " + numeroPensado);
+		escreve("Tente novamente");
 	}
+	escreve("Você errou, o numero pensado foi: " + numeroPensado);
+	escreve("FIM!");
+
 
 </script>
