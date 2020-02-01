@@ -1,0 +1,83 @@
+COMANDOS DO NAVEGADOR
+
+ CTRL+O  -> para abrir arquivos . 
+
+ F12  -> para abrir a janela das ferramentas de desenvolvedor.
+
+
+TAGS HTML
+
+<meta charset="UTF-8">  -> define o padrão de caractéres do arquivo para o navegador. 
+
+<h1> exemplo </h1>  -> marca exemplo como título principal.
+
+<p>exemplo</p>  -> marca exemplo como parágrafo.
+
+<big> exemplo </big>  -> aumenta o tamanho da letra do exemplo.
+
+<br>  -> quebra linha.
+
+<hr>  -> cria uma linha continua.
+
+<a href="link">exemplo</a>  -> âncora para links.
+
+<script>código JavaScript</script>  -> tag para o navegador interpretar código JS.
+
+<input/>  -> cria uma caixa de entrada
+
+<button>exemplo</button> -> cria um botão escrito exemplo
+
+
+INSTRUÇÕES JS
+
+var arrays = [];
+arrays.length  -> retorna tamanho da array
+arrays.push  -> add elemento ao array
+
+console.log(parametro)  -> retorna o parametro no console.
+
+alert("String")  -> exibe um popup com a String, no navegador.
+
+document.write("String")  -> escreve como html. 
+
+document.querySelector("nomeDaTag")  -> retorna o conteudo da tag selecionada.
+
+.value
+.focus()
+.onclick
+
+prompt("mensagem");  -> abre um popup com a mensagem e espera retorno do usuario.
+
+var nomeDaVariavel  -> iniciar variavel.
+
+Math.round(numeroASerArredondado)  -> arredonda um numero float.
+
+Math.random()  -> devolve um numero randomico entre 0 e 1.
+
+parseInt("numero")  -> cast de String para Integer
+
+parseFloat("numero")  -> cast de String para Float
+
+function nomeDaFuncao(parametro ) {
+        codigo;
+	return codigo;
+    }  -> corpo de uma função.
+
+if(expressaoBoleana) {
+	codigo;
+} else {
+	codigo;
+}  -> corpo de um if.
+
+while(expressaoBoleana) {
+	codigo;
+}   -> corpo de while
+
+for(var cont; expressaoBoleana; cont++){
+	codigo;
+}  -> corpo de for
+
+isNaN(parametro)  -> verifica se o parametro passado é NaN
+
+break  -> quebra o loop
+
