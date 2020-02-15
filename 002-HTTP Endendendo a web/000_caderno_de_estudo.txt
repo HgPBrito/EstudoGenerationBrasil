@@ -1,0 +1,121 @@
+HTTP 	(Hypertext Transfer Protocol)	-> protocolo de comunicação web, segue o modelo Client-Server.
+
+HTTPS	-> tem uma camada de segurança com SSL/TLS: Secure Sockets Layer / Transport Layer Security
+
+    Só com HTTPS a web é segura.
+    HTTPS significa usar um certificado digital no servidor.
+    O certificado prova a identidade e tem validade
+    O certificado possui uma chave publica.
+    A chave é utilizada pelo navegador para criptografar os dados.
+
+https://tools.ietf.org/html/rfc2616	-> documentação do protocolo HTTP.
+
+P2P ou Peer-To-Peer	-> protocolo de comunicação o cliente assume uma parte como servidor, usado em torrent por exemplo.
+
+    Por padrão, os dados são trafegados como texto puro na web.
+    Apenas com HTTPS a Web é segura
+    O protocolo HTTPS nada mais é do que o protocolo HTTP mais uma camada adicional de segurança, a TLS/SSL
+    O tipo de criptografia de chave pública/chave privada
+    O que são os certificados digitais
+    Certificados possuem identidade e validade
+    As chaves públicas estão no certificado, a chave privada fica apenas no servidor
+    O que é uma autoridade certificadora
+    O navegador utiliza a chave pública para criptografar os dados
+______________________________________________________________
+
+ DNS (Domain Name System)  -> retorna o endereço do ip do servidor do site solicitado.
+
+    URL são os endereços da Web
+    Uma URL começa com o protocolo (por exemplo https://) seguido pelo domínio (www.alura.com.br)
+    Depois do domínio pode vir a porta, se não for definida é utilizada a porta padrão desse protocolo
+    Após o domínio:porta, é especificado o caminho para um recurso (/course/introducao-html-css)
+    Um recurso é algo concreto na aplicação que queremos acessar 
+
+https://s3.amazonaws.com/caelum-online-public/http/http-url.png
+______________________________________________________________
+
+A comunicação segue sempre esse modelo, Requisição e Resposta ou em inglês: Request-Response
+
+característica de cada requisição ser independente é chamada de stateless
+
+ navegador envia o login e senha em cada requisição? Não, não seria muito elegante nem seguro fazer isso. Mas ele faz algo parecido, acreditem ou não. Quando efetuamos o login, a Alura valida os nossos dados, certo? Nesse momento, o servidor tem certeza que o usuário existe e gera uma identificação quase aleatória para o usuário. Essa identificação é um número criado ao vivo e muito difícil de adivinhar. Esse numero é a identificação temporária do usuário e ele será devolvido na resposta.
+
+O navegador grava esse número em um arquivo especial para cada site, são os famosos cookies. 
+
+    O HTTP usa sessões para salvar informações do usuário
+    Sessões só são possíveis por uso de Cookies
+    Cookies são pequenos arquivos que guardam informações no navegador
+    O HTTP é stateless, não mantem estado.
+
+    O protocolo HTTP segue o modelo Requisição-Resposta
+    Sempre o cliente inicia a comunicação
+    Uma requisição precisa ter todas as informações para o servidor gerar a resposta
+    HTTP é stateless, não mantém informações entre requisições
+    As plataformas de desenvolvimento usam sessões para guardar informações entre requisições
+
+______________________________________________________________
+
+301	-> redirecionamento (Moved Permanently)
+200	-> resposta de entrega do requerimento (OK)
+404	-> o requerimento não existe (Not Found)
+500	-> falha do servidor (Internal Server Error)
+
+    2XX -> Respostas de sucesso
+    3XX -> Mensagem de redirecionamento
+    4XX -> Respostas de erro do cliente
+    5XX -> Respostas de erro do servidor
+
+A tabela completa de mensagens HTTP pode ser vista em:
+ https://www.w3schools.com/tags/ref_httpmessages.asp.
+
+https://httpstatusdogs.com/
+
+https://http.cat/
+
+https://httpstatuses.com/
+
+______________________________________________________________
+
+GET	-> "pega" informação do servidor, busca
+POST	-> "entrega" as informaçoes, envio
+?	->parametros em url sao passados depois da interrogação
+&	-> usado como concatenação de parametros
+DELETE	-> apagar recurso
+PUT	-> atualizar recurso
+
+______________________________________________________________
+
+REST(Representational State Transfer) ou em português Transferência de Estado Representacional.
+
+
+ https://s3.amazonaws.com/caelum-online-public/http/images/08/imagem2-cap8-rest-http.png
+
+    GET - recupera informações sobre o recurso identificado pela URI. Ex: listar restaurante, visualizar o restaurante 1. Uma requisição GET não deve modificar nenhum recurso do seu sistema, ou seja, não deve ter nenhum efeito colateral, você apenas recupera informações do sistema.
+
+    POST - adiciona informações usando o recurso da URI passada. Ex: adicionar um restaurante. Pode adicionar informações a um recurso ou criar um novo recurso.
+
+    PUT - adiciona (ou modifica) um recurso na URI passada. Ex: atualizar um restaurante.
+
+    DELETE - remove o recurso representado pela URI passada. Ex: remover um restaurante.
+
+
+podemos falar qual é o formato em que conversamos com o servidor com o Content-Type e Accept que são cabeçalhos do HTTP. 
+
+    REST é um padrão arquitetural para comunicações entre aplicações
+    Ele aproveita a estrutura do HTTP
+    Recursos são definidos via URI
+    Operações com métodos HTTP(GET/POST/PUT/DELETE)
+    Cabeçalhos(Accept/Content-Type) são usados para especificar as representações(JSON,XML,...)
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types
+
+______________________________________________________________
+
+ depurar uma requisição via CURL (linux)
+curl -v www.siteDeExemplo.com.br
+
+Server Push, ou seja, o server envia dados para o cliente sem que o cliente tenha solicitado
+
+Multiplexing  requisições e respostas vão chegando a todo tempo. É totalmente paralelo.
+
+
