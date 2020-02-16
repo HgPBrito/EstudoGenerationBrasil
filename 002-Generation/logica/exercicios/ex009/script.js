@@ -1,7 +1,8 @@
-let quantosNumerosCompara, resposta, listaDeNumeros ;
+let quantosNumerosCompara, media, resposta, soma, contador, listaDeNumeros ;
 listaDeNumeros = [];
-
-quantosNumerosCompara = prompt("Quantos números quer comparar?");
+contador = 0;
+soma = 0;
+quantosNumerosCompara = prompt("Quantos números quer digitar para mostrar a média?");
 
 do {   
 
@@ -9,12 +10,19 @@ do {
     for (let i = 1; i <= quantosNumerosCompara; i++) {
         let numero = parseInt(prompt("Digite o número " + i + ":"));
         listaDeNumeros.push(numero);
+        contador++;
     }    
 
     resposta = prompt("Quer adicionar mais números?(s/n)");
 
     if(resposta === "s"){
-        contador = parseInt(prompt("Quer verificar quantos números a mais?"));
+        quantosNumerosCompara = parseInt(prompt("Quer adicionar quantos números a mais?"));
     }
 
 } while (resposta === "s");
+
+for (let i = 0; i < listaDeNumeros.length; i++) {
+    soma += listaDeNumeros[i];    
+}
+media = soma / contador;
+document.write("A média dos números digitado é: " + media)
