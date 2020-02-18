@@ -1,0 +1,15 @@
+header{
+    width: 930px;
+    height: 100px;
+    background-color:#0099E6;
+}
+
+header > img {
+    float: left;
+}
+header > nav {
+    float: left;
+}
+
+
+
