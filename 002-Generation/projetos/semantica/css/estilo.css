@@ -8,39 +8,40 @@
 body{
     font-family: 'Marvel', sans-serif;
     color: #fff;
-    background-color: #85B7CC;
+    background-color: #7CABBF;
 }
 
 main{
     width: 100%;
     max-width: 1600px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 /* estilo do topo e menu */
 header{
-    background-color: #85B7CC ;
+    background-color: #7CABBF ;
     height: 180px;
-    padding: 0.7em;    
+    padding: 0.7em;        
 }
 
 header > img{
-    float: left;
+    float: left;    
     margin: 15px;
 }
 
 header > nav{
-    width: 250px;
+    width: 120px;
     float: right;
+    overflow: hidden;
 }
 
 header > nav > ul{
-    list-style: none;
+    list-style: none;    
 }
 
 header > nav > ul > li{
     padding-right: 5px;
-
 }
 
 header > nav > ul > li > a:link{
@@ -63,13 +64,141 @@ header > nav > ul > li > a:visited{
 }
 
 header > nav > ul > li > a:hover{
-    background-color: #005C85;
+    color: #293940;
+    background-color: #fff;
+    box-shadow: 3px 2px 2px 0 #293940;
 }
 
 /* estilo  dos titulos das seções */
 
 h1{
     font-size: 3em;
-    margin: 0 20px 25px 20px;
+    margin: 0 20px 10px 20px;
+    text-align: center;
 }
 
+h2{
+    font-size: 1.6em;    
+    text-align: center;
+    padding-top: 5px;
+}
+
+/* seção sobre */
+
+.sobre{
+    background-color: #005C85;
+    border-radius: 50px 50px 0 0;
+    padding: 1em;
+    width: 100%;
+    overflow: hidden;
+}
+
+.sobre > img {
+    float: left;
+    margin-right: 15px;
+    overflow: hidden;   
+    border-radius: 50px; 
+}
+
+#nome{
+    background-color: #537280;
+    border-radius: 50px;
+    float: left;
+    width: 58%;
+    height: 100px;
+}
+
+.sobre > p{
+    text-indent: 50px;
+    padding-top: 7.5em;
+    text-align: justify; 
+}
+
+/* seção trabalhos */
+
+.trabalhos{
+    background-color: #2D6780;
+    padding: 1em;    
+    overflow: hidden;
+}
+
+.trabalhos > article{
+    float: left;
+    width: 30.2%;
+    margin: 0.9em;
+    height: 500px;    
+    box-shadow: 3px 2px 2px 0px #293940;
+    text-align: justify;
+    padding: 1em;
+    border-radius: 50px;
+}
+
+.trabalhos > article > img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.sites{
+    background-color: #95CDE6;
+}
+
+.sistemas{
+    background-color: #537280;
+}
+
+.projetos{
+    background-color: #85B7CC;
+}
+
+/* seção contatos */
+
+.contatos{
+    background-color: #005C85;
+    border-radius: 0 0 50px 50px;
+    width: 100%;
+    padding: 30px 0; 
+    float: left;    
+    text-align: center;
+}
+
+#contato{
+    width: 30%;
+    height: 100px;
+    margin: 50px 0 0 100px; 
+    float: left;   
+}
+.contatos > p{
+    font-size: 30px;
+}
+
+#map{
+    margin-top: -150px;
+    float: right;
+    width: 70%;
+}
+iframe{
+    width: 80%;
+    height: 300px;
+    border-radius: 50px;
+        
+}
+
+/* rodapé */
+
+footer{
+    float: left;
+    width: 100%;
+}
+
+footer > img{
+    width: 15%;
+    margin: 5% 40%;
+}
+
+/* inicio layout para dispositivos móveis */
+
+@media screen and (max-width:1440px){
+    #nome{
+        width: 53%;
+    }
+}
