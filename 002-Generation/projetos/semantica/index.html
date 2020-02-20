@@ -10,21 +10,24 @@
 </head>
 
 <body>
-    <main>
+    <main id="main">
         <!-- Área de Topo - logotipo e Menu -->
+        <nav id="seta">
+            <a href="#main"><img src="img\seta.png" alt="seta para cima"></a>
+        </nav>
         <header>
             <img src="img/logo-topo2.png" alt="Currículo">
             <nav>
                 <ul type="circle">
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Trabalhos</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#work">Trabalhos</a></li>
+                    <li><a href="#contact">Contato</a></li>
                 </ul>
             </nav>
         </header>
 
         <!-- Área de conteúdo -->
-        <section class="sobre">
+        <section class="sobre" id="about">
             <img src="img\equipe.jpg" alt="Sobre">
             <div id="nome">
                 <h1>Hugo Brito</h1>
@@ -53,7 +56,7 @@
         </section>
 
         <!-- Área de conteúdo Trabalhos -->
-        <section class="trabalhos">
+        <section class="trabalhos" id="work">
             <h1>Trabalhos e Projetos</h1>
             <article class="sites">
                 <h2>Sites</h2>
@@ -81,7 +84,7 @@
             </article>
         </section>
 
-        <div class="contatos">
+        <div class="contatos" id="contact">
             <div id="contato">
                 <h1>À disposição<br>Aguardo seu contato!</h1>
                 <p>@hgpbrito <br>(11)96811-8635 <br> hgbrito.tr@gmail.com</p>
