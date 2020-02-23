@@ -6,6 +6,10 @@ https://slack.com/intl/pt-br/
 https://origamid.com/projetos/flexbox-guia-completo/
 https://www.devmedia.com.br/menu-em-css-menu-dropdown-horizontal-com-html5-e-css3/37205
 https://tableless.com.br/criando-um-menu-horizontal-com-css/
+https://www.youtube.com/watch?v=d7juLrrVbvY&list=PLwXQLZ3FdTVGjLmjwfRc0Q9TA5U-PCWp4&index=2
+https://www.turbosite.com.br/blog/tutorial-como-criar-um-menu-dropdown-com-apenas-css
+https://web.archive.org/web/20190331222441/https://slack.com/
+https://getbootstrap.com/docs/4.4/components/buttons/
 
 -->
 
@@ -21,8 +25,8 @@ https://tableless.com.br/criando-um-menu-horizontal-com-css/
 <body>
     <main>
         <header>
-            <img src="./img/logo.svg" alt="Logotipo">
-            <nav id="menu">
+            <nav class="menu">
+                <a href="#"><img src="./img/logo.svg" alt="Logotipo" id="logo"></a>
                 <ul type="circle" id="sobre">
                     <li class="sobre"><a href="#">Porque o Slack?</a>
                         <ul type="circle" id="sobre">
@@ -104,28 +108,97 @@ https://tableless.com.br/criando-um-menu-horizontal-com-css/
             </article>
         </section>
         <!--  -->
+        <article>
+            <h2>Seu espaço para trabalhar em equipe</h2>
+            <p>
+                Discussões sobre projetos, documentos, anúncios de refeições gratuitas - tudo isso reunido e
+                organizado no Slack. Com sua equipe e as informações em um local facilmente pesquisável, colaborar
+                on-line é tão fácil quanto colaborar pessoalmente.
+            </p>
+        </article>
         <section>
             <article>
-                <h2>Seu espaço para trabalhar em equipe</h2>
+                <img src="./img/organized-convos.png" alt="Comunicação">
+                <h3>Canais</h3>
                 <p>
-                    D
+                    <a href="#">A comunicação no Slack</a> ocorre em canais organizados por projetos, assuntos, equipes
+                    ou o que fizer mais sentido para você.
                 </p>
             </article>
             <article>
-
+                <img src="./img/search-binoculars.png" alt="">
+                <h3>Pesquisar</h3>
+                <p>
+                    No Slack, <a href="#">todos podem pesquisar</a> as conversas. Assim, você pode explorar o
+                    conhecimento da empresa e localizar as informações necessárias.
+                </p>
             </article>
             <article>
-
+                <img src="./img/apps-gears.png" alt="">
+                <h3>Integrações</h3>
+                <p>
+                    O Slack é compatível com as <a href="#">ferramentas e serviços que você já usa</a> diariamente.
+                    Adicione informações ou execute ações sem sair do Slack.
+                </p>
             </article>
             <article>
-
-            </article>
-            <article>
-
+                <img src="./img/security-lock.png" alt="">
+                <h3>Segurança</h3>
+                <p>
+                    No Slack, levantamos a <a href="#">Segurança</a> muito a sério. Oferecemos recursos como a A2F e o
+                    SSO para garantir a segurança dos seus dados e proteger sua organização.
+                </p>
             </article>
         </section>
+        <span><a href="#">Saiba mais sobre os recursos do Slack →</a></span>
+        <article>
+            <h2>Você está bem acompanhado</h2>
+            <p>Milhões de pessoas em todo o mundo já tornaram o Slack o lugar onde o trabalho em equipe acontece.</p>
+        </article>
 
+        <section>
+            <article>
+                <img src="./img/slack-customer-trivago.jpg" alt="">
+                <img src="./img/logo-trivago.png" alt="">
+                <p>
+                    Criação de uma experiência melhor para o funcionário com o Slack
+                </p>
+                <a href="#">→</a>
+            </article>
+            <article>
+                <img src="./img/slack-customer-autodesk.jpg" alt="">
+                <img src="./img/autodesk.png" alt="">
+                <p>
+                    União entre experiência do produto e cultura da empresa na Autodesk
+                </p>
+                <a href="#">→</a>
+            </article>
+            <article>
+                <img src="./img/slack-customer-liberty-mutual.jpg" alt="">
+                <img src="./img/liberty-mutual.png" alt="">
+                <p>
+                    Modernização da comunicação das equipes
+                </p>
+                <a href="#">→</a>
+            </article>
+            <section>
+                <img src="./img/nextel.png" alt="">
+                <img src="./img/lyft.png" alt="">
+                <img src="./img/hellofresh-alt.png" alt="">
+                <img src="./img/stone.png" alt="">
+                <img src="./img/ocado.png" alt="">
+            </section>
+            <article>
+                <h2>Teste o Slack gratuitamente com sua equipe</h2>
+                <button type="button">PRIMEIROS PASSOS</button>
+            </article>
+        </section>
+        <section>
+            <img src="./img/logo-menu.svg" alt="">
+        </section>
+        <footer>
 
+        </footer>
     </main>
 
     <script src="./js/script.js"></script>
