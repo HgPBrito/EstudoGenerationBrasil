@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+*{
+    box-sizing: border-box;
+}
+main{
+	width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;  
+    overflow: hidden;  
+}
+body{
+    color: #ffffff;	
+    width: 100%;
+}
+header{
+    
+}
+.menu{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+	align-items: center;			
+    width: 100%;   
+    max-width: 1600px; 
+	height: 70px;
+	text-align: center;
+	position: fixed;
+    background-color: aquamarine;
+    list-style: none;    
+    overflow: hidden;
+}
+.menu a{
+    text-decoration: none;
+}

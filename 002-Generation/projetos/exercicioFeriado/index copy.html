@@ -1,13 +1,25 @@
 <!doctype html>
 <html lang="pt-br">
 
+<!--
+https://slack.com/intl/pt-br/
+https://origamid.com/projetos/flexbox-guia-completo/
+https://www.devmedia.com.br/menu-em-css-menu-dropdown-horizontal-com-html5-e-css3/37205
+https://tableless.com.br/criando-um-menu-horizontal-com-css/
+https://www.youtube.com/watch?v=d7juLrrVbvY&list=PLwXQLZ3FdTVGjLmjwfRc0Q9TA5U-PCWp4&index=2
+https://www.turbosite.com.br/blog/tutorial-como-criar-um-menu-dropdown-com-apenas-css
+https://web.archive.org/web/20190331222441/https://slack.com/
+https://getbootstrap.com/docs/4.4/components/buttons/
+
+-->
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aqui o trabalho acontece | Slack</title>
     <link rel="shortcut icon" href="./img/iconSlack.png">
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <main class="main">
@@ -20,10 +32,57 @@
                 </div>
 
                 <ul type="circle" class="menu-primario">
-                    <li><a href="#">Porque o Slack?</a></li>
-                    <li><a href="#">Soluções</a></li>
-                    <li><a href="#">Recursos</a></li>
-                    <li><a href="#">Preços</a></li>
+                    <li><a href="#">Porque o Slack?</a>
+                        <ul type="circle" class="menu-secundario">
+                            <li><a href="#">Como funciona</a></li>
+                            <li><a href="#">Como ele substitui o e-mail</a></li>
+                            <li><a href="#">Segurança</a></li>
+                            <li><a href="#">Clientes</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">Soluções</a>
+                        <ul type="circle" class="menu-secundario">
+                            <li><a href="#">Engenharia</a></li>
+                            <li><a href="#">Serviços financeiros</a></li>
+                            <li><a href="#">Vendas</a></li>
+                            <li><a href="#">TI</a></li>
+                            <li><a href="#">Marketing</a></li>
+                            <li><a href="#">Suporte ao cliente</a></li>
+                            <li><a href="#">Recursos humanos</a></li>
+                            <li><a href="#">Gerenciamento de projetos</a></li>
+                            <li><a href="#">Mídia</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">Recursos</a>
+                        <ul type="circle" class="menu-secundario">
+                            <li><a href="#">Biblioteca de recursos</a>
+                                <ul type="circle" class="menu-terciario">
+                                    <li><a href="#">Página inicial da biblioteca</a></li>
+                                    <li><a href="#">Noções básicas do Slack</a></li>
+                                    <li><a href="#">Por que usar o Slack?</a></li>
+                                    <li><a href="#">Como usar o Slack</a></li>
+                                    <li><a href="#">Slack para administradores</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Blog</a>
+                                <ul type="circle" class="menu-terciario">
+                                    <li><a href="#">Página inicial do blog</a></li>
+                                    <li><a href="#">Colaboração</a></li>
+                                    <li><a href="#">Produtividade</a></li>
+                                    <li><a href="#">Transformação</a></li>
+                                    <li><a href="#">@Slack</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Central de Ajuda</a></li>
+                            <li><a href="#">API</a></li>
+                            <li><a href="#">Diretório de apps</a></li>
+                            <li><a href="#">Baixar</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="sobre"><a href="#">Preços</a></li>
                 </ul>
 
                 <ul type="circle" class="menu-primario" id="acesso">
