@@ -12,21 +12,18 @@
 
 
 <body>
-    <main class="main">
+    <main>
         <header>
             <nav>
-                <div>
+                <ul type="circle" class="nav-esquerda">
                     <a href="#main"><img src="./img/logo.svg" alt="Logotipo"></a>
+                    <li><a href="#">Por que o Slack?</a></li>
+                    <li><a href="#">Soluções</a></li>
+                    <li><a href="#">Recursos</a></li>
+                    <li><a href="#">Preços</a></li>
+                </ul>
 
-                    <ul type="circle">
-                        <li><a href="#">Por que o Slack?</a></li>
-                        <li><a href="#">Soluções</a></li>
-                        <li><a href="#">Recursos</a></li>
-                        <li><a href="#">Preços</a></li>
-                    </ul>
-                </div>
-
-                <ul type="circle">
+                <ul type="circle" class="nav-direita">
                     <li><a href="#">Entrar</a></li>
                     <button type="button">Primeiros Passos</button>
                 </ul>
@@ -34,12 +31,15 @@
         </header>
         <!--  -->
         <section>
-            <h1>Imagine o que você e sua equipe poderão fazer juntos</h1>
-            <img src="./img/Slack-Customer-Autodesk-BW.jpg" alt="imagem pela AutoDesk">
-            <img src="./img/slack-customer-trivago.jpg" alt="imagem pela Trivago">
-            <span>A Trivago cria uma experiência melhor para o funcionário com o Slack</span>
+            <span class="titulo">
+                <h1>Imagine o que você e sua equipe poderão fazer juntos</h1>
+            </span>
+            <img class="img-atras" src="./img/Slack-Customer-Autodesk-BW.jpg" alt="imagem pela AutoDesk">
+            <img class="img-frente" src="./img/slack-customer-trivago.jpg" alt="imagem pela Trivago">
+            <span class="conteudo" id="explicacao">A Trivago cria uma experiência melhor para o funcionário com o
+                Slack</span>
             <article>
-                <p>
+                <p class="conteudo">
                     O Slack é um espaço de colaboração para todos os tipos de equipes. É onde as conversas acontecem, as
                     decisões são tomadas e as informações estão sempre dispóniveis. Com o Slack, sua equipe está melhor
                     conectada.
@@ -47,21 +47,22 @@
                 <form action="post">
                     <input type="email" name="email" id="email">
                     <button type="button">PRIMEIROS PASSOS</button>
-                    <p>Já está usando o Slack? <a href="https://slack.com/signin">Entre</a>.</p>
+                    <p class="conteudo">Já está usando o Slack? <a href="https://slack.com/signin">Entre</a>.</p>
                 </form>
-                <img src="./img/slack-customer-hellofresh.jpg" alt="imagem pela HelloFresh">
+                <img id="img-cinza" src="./img/slack-customer-hellofresh.jpg" alt="imagem pela HelloFresh">
             </article>
         </section>
         <!--  -->
         <article>
             <h2>Seu espaço para trabalhar em equipe</h2>
-            <p>
-                Discussões sobre projetos, documentos, anúncios de refeições gratuitas - tudo isso reunido e
+            <p class="conteudo p2">
+                Discussões sobre projetos, documentos, anúncios de refeições gratuitas — tudo isso reunido e
                 organizado no Slack. Com sua equipe e as informações em um local facilmente pesquisável, colaborar
                 on-line é tão fácil quanto colaborar pessoalmente.
             </p>
         </article>
-        <section>
+        <!--  -->
+        <section class="caixas">
             <article>
                 <img src="./img/organized-convos.png" alt="Comunicação">
                 <h3>Canais</h3>
@@ -95,58 +96,8 @@
                 </p>
             </article>
         </section>
-        <span><a href="#">Saiba mais sobre os recursos do Slack →</a></span>
-        <article>
-            <h2>Você está bem acompanhado</h2>
-            <p>Milhões de pessoas em todo o mundo já tornaram o Slack o lugar onde o trabalho em equipe acontece.</p>
-        </article>
 
-        <section>
-            <article>
-                <img src="./img/slack-customer-trivago.jpg" alt="">
-                <img src="./img/logo-trivago.png" alt="">
-                <p>
-                    Criação de uma experiência melhor para o funcionário com o Slack
-                </p>
-                <a href="#">→</a>
-            </article>
-            <article>
-                <img src="./img/slack-customer-autodesk.jpg" alt="">
-                <img src="./img/autodesk.png" alt="">
-                <p>
-                    União entre experiência do produto e cultura da empresa na Autodesk
-                </p>
-                <a href="#">→</a>
-            </article>
-            <article>
-                <img src="./img/slack-customer-liberty-mutual.jpg" alt="">
-                <img src="./img/liberty-mutual.png" alt="">
-                <p>
-                    Modernização da comunicação das equipes
-                </p>
-                <a href="#">→</a>
-            </article>
-            <section>
-                <img src="./img/nextel.png" alt="">
-                <img src="./img/lyft.png" alt="">
-                <img src="./img/hellofresh-alt.png" alt="">
-                <img src="./img/stone.png" alt="">
-                <img src="./img/ocado.png" alt="">
-            </section>
-            <article>
-                <h2>Teste o Slack gratuitamente com sua equipe</h2>
-                <button type="button">PRIMEIROS PASSOS</button>
-            </article>
-        </section>
-        <section>
-            <img src="./img/logo-menu.svg" alt="">
-        </section>
-        <footer>
-
-        </footer>
-
-        <script src="./js/script.js"></script>
+    </main>
 </body>
-</main>
 
 </html>

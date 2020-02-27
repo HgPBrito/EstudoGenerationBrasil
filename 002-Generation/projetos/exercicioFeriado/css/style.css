@@ -172,3 +172,84 @@ nav ul ul li a:hover {
 nav ul ul ul {
 	position: absolute; left: 100%; top:0;
 } */
+
+
+@charset "utf-8";
+
+*{
+    box-sizing: border-box;
+}
+body{    
+    font-family: Helvetica, Arial, sans-serif;	      
+    background-color: #ffffff;  
+}
+main{
+    display: block;
+	width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;      
+}
+nav{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;    
+    align-items: center;
+    background-color: #ffffff;    
+    height: 70px;
+    position: fixed;
+    padding: 2em;
+}
+nav > div{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1em;
+}
+nav li{
+    margin: 0 1em;
+    
+}
+nav a{
+    text-decoration: none;
+    color: #454545;
+}
+nav > div > ul > li:hover a{
+    color: #1d1d1d;
+}
+nav > ul > li:hover a{
+    color: #611f69;
+}
+button{      
+    text-align: center; 
+    text-transform: uppercase;
+    font-weight: bold; 
+    cursor: pointer;   
+    background-color: transparent;
+    border: 1px solid transparent;   
+    border-radius: 0.25rem;
+    color: #fff;
+    background-color: #611f69;    
+    padding: 1em 1em;    
+}
+
+main > section{
+    padding-top: 70px;
+    display: block;
+    justify-content: space-between;    
+    align-items: center;
+}
+main section h1{
+    width: 70%;
+    font-size: 4em;
+    font-weight: bold;
+    
+}
