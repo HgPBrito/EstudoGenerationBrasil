@@ -2,15 +2,20 @@
 
 *{
     box-sizing: border-box;
+	
 }
 body{    
     font-family: Helvetica, Arial, sans-serif;	      
-    background-color: #ffffff;  
+    background-color: #ffffff; 
+
 }
 main{
     display: block;
 	width: 100%;
-    max-width: 100%;           
+    max-width: 100%;  
+	margin: 0 auto;	
+	overflow: hidden;
+	
 }
 /* menu */
 header{

@@ -1,0 +1,165 @@
+Kian Importação
+Grande empresa
+
+contrato:CLT
+
+ Pleno
+
+Remoto: Não
+
+Salário: Até R$8.000
+
+Descrição da empresa
+Empresa do segmento de material elétrico, iluminação e ferramentas.
+
+Atividades e Responsabilidades
+Realizar manutenção e implementação do sistema desenvolvido pela empresa integrado ao ERP Winthor.
+
+Requisitos
+Experiência como desenvolvedor Delphi ou Java e SQL;
+
+Conhecimento em: Diagramas UML, Orientação a objetos;
+
+Desejável: Spring Framework, Bootstrap, JQuery e Maven;
+
+Noções de: Integração contínua, TDD, Docker e Design Patterns, serviços REST, RESTful e SOAP;
+
+Áreas de formação: Sistemas de Informação, Ciência da Computação, Engenharia de Software, Tecnólogo em Desenvolvimento de Sistemas, Análise e Desenvolvimento de Sistemas, Engenharia de Software.
+
+O que nós oferecemos
+ Seguro de Vida
+
+ Plano de Saúde
+
+ Vale Transporte
+
+ Vale Alimentação
+
+Restaurante Interno
+
+____________________________________________________________________________________________________________________
+
+G&P Projetos e Sistemas
+ Grande empresa
+
+ CLT
+
+ Pleno
+
+Remoto: Não
+
+Descrição da empresa
+Fundada em 1989, a G&P caracteriza-se por uma trajetória de sólido crescimento, permanentes investimentos em qualificação profissional e uma reconhecida excelência operacional.
+
+Com base nas melhores práticas de governança de TI, a empresa tem uma marca de longevidade e qualidade nas atuações técnicas operacionais, e principalmente, serviços na modalidade projeto fechado e outsourcing total.
+
+Atividades e Responsabilidades
+Atuação com desenvolvimento e manutenção de sistemas.
+
+Requisitos
+AngularJS, BootStrap Java 7, JBoss EAP (6.4) ou WildFly 9.
+Framework Spring (SpringMVC, SpringBatch, Spring Security, Cache, DI);
+NodeJS Hibernate, JasperReport Linux Eclipse, Intellij ou NetBeans
+Controle de Fontes (Git)
+
+Regime de contratação: CLT Full + benefícios
+
+O que nós oferecemos
+ Plano Odontológico
+
+ Plano de Saúde
+
+ Vale Transporte
+
+ Vale Refeição
+
+________________________________________________________________________________________________________________________
+
+Buscamos profissionais para somar em nosso time. Alguém descomplicado e flexível para desenvolver carreira na comunidade de pagamentos!
+
+Analista Desenvolvedor Java Sênior (3 VAGAS)
+
+O que buscamos:
+• Profissionais com experiencia em desenvolvimento para atuar como um team member em um modelo de comunidade de entrega.
+• Alguem focado no desenho sistêmico e desenvolvimento de produtos para área de pagamentos do banco e que tenha autonomia para tomar as decisões sistêmicas dentro da squad, apoiado por uma tríade, composta por um techlead, teamlead, PO.
+
+Conhecimentos:
+• Java, framework spring, SQL Server e familiriedade com metodologias ageis/Scrum.
+
+Diferencial:
+• Kafka, MQ, aws, azure, googlecloud, ci/cd (integração continua e deploy continuo, ágil, experiência com sistemas exposto em gateway e MongoDB.
+
+Aqui você irá:
+• Analisar e desenvolver sistemas com foco no cumprimento de prazo, custo e qualidade;
+• Elaborar documenta§¥o com solução técnica;
+• Realizar o planejamento das atividades em conjunto com fornecedores;
+• Realizar acompanhamento das atividades com fornecedores;
+• Validar os artefatos entregues pelas fábricas;
+• Realizar testes unitários e de integração;
+• Preparar e realizar a implantação de demandas via ferramenta RTC e/ou GIT;
+• Pesquisar e testar novas tecnologias;
+• Participar das cerimonias do Scrum.
+
+Local: São Paulo/SP - Região da Mooca
+
+_____________________________________________________________________________________________
+
+Praxio Tecnologia
+Praxio Tecnologia
+ Pequena ou Média empresa
+
+ CLT
+
+ R. Alfândega, 35
+
+ Júnior
+
+Remoto: Não
+
+Não aceita candidados de outra cidade
+
+Descrição da empresa
+Somos uma empresa que conecta pessoas, informações e experiências em tecnologia. Trabalhamos para ser referência em toda operação do transporte e logística.
+Preservamos a leveza e o bom humor em nosso ambiente de trabalho e buscamos ver o lado simples e positivo de cada situação ou desafio. Incentivamos o trabalho em equipe, valorizamos o bem comum e, juntos, caminhamos em direção às mudanças e objetivos que queremos conquistar.
+
+Atividades e Responsabilidades
+Procuramos um profissional com garra para crescer e contribuir com nosso sonho de revolucionar o transporte de cargas.
+
+Como Desenvolvedor de Software, você irá desenvolver sistemas e aplicações que solucionem os principais problemas do setor logístico. Você fará isso a partir de solicitações recebidas da área de vendas, de superiores, de analistas e arquitetos.
+
+Entre suas atribuições, estará:
+- Desenvolver sistemas e aplicações, a partir das solicitações recebidas da área de vendas, superiores, analistas e arquitetos.
+- Determinar quais os recursos necessários para o desenvolvimento do sistema e aplicação
+- Efetuar o desenvolvimento da interface gráfica, montando estrutura de banco de dados, codificando programas, provendo sistemas de rotinas de segurança, compilando programas, efetuando testes, gerando aplicativos para instalação e gerenciamento de sistemas
+- Realizar a manutenção de sistemas e aplicações, alterando sistemas e aplicações, estrutura de armazenamento de dados, atualizando informações gráficas e textuais, convertendo sistemas e aplicações para outras linguagens ou plataformas
+- Encaminhar para a área de testes, para efetuar a verificação final e validação do sistema e aplicação
+
+Requisitos
+- Formação universitária em Ciência da Computação ou Sistemas de Informação ou similar
+- Facilidade de expressão oral/escrita
+- Facilidade de trabalhar em grupo
+- Experiência de 2 anos ou mais em front end (react, angular, gwt ou outra)
+- Experiência de 1 ano ou mais em bancos de dados (SQL, Postgre, Oracle ou outro)
+- Experiência de 1 ano ou mais em Java Web
+- Experiência de 1 ano ou mais em Hibernate (ou outro ORM equivalente)
+- Experiência de 1 ano ou mais em Spring Framework
+
+Desejáveis:
+- Experiência prática com metodologias ágeis (Scrum, Kanban, XP, TDD)
+- Experiência prática com metodologias de testes ágeis
+- Experiência e conhecimento necessários para implantação de metodologia de testes ágeis
+
+O que nós oferecemos
+ Seguro de Vida
+
+ Plano Odontológico
+
+ Plano de Saúde
+
+ Vale Transporte
+
+ Vale Alimentação
+
+ Vale Refeição
+
+_____________________________________________________________________________________

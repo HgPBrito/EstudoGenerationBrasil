@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+body{
+
+}
+body>div{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+body>div img{
+    width: 350px;
+    height: 400px;
+    justify-content: center;    
+}
+body>div input{
+    text-align: center; 
+    text-transform: uppercase;
+    font-weight: bold; 
+    cursor: pointer;   
+    background-color: transparent;
+    border: none;   
+    border-radius: 0.25rem;
+    color: #fff;
+    background-color: #bbbbbb;    
+    padding: 1em 1em;  
+}
