@@ -1,0 +1,99 @@
+@charset "utf-8";
+@import ("https://fonts.googleapis.com/css?family=Poppins");
+
+html, body{
+    margin: 0 auto;
+    background: #2b2927;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #ffffff;
+}
+
+.container-all{
+    width: 100%;
+    margin: 20px auto;            
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;  
+    justify-content: space-between;  
+}
+
+.container{
+    width: calc(33% - 6px);
+    overflow: hidden;
+    height: auto;
+    margin: 3px;
+    padding: 0;
+    display: block;
+    /* float: left; */
+    position: relative;
+}
+
+section.container > img{
+    width: 100%;
+    cursor: pointer;
+    overflow: hidden;
+    display: block;
+    transition-duration: 300ms;
+}
+
+.title{
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    top: 35%;
+    left: 50%;
+    font-weight: bold;
+    font-size: 1.6em;
+    text-shadow: 1px 5px 10px #000000;
+    margin-right: -50%;    
+    transform: translate(-50%, -50%);
+    transition-duration: 300ms;
+    display: none;
+}
+
+.text{
+    position: absolute;
+    top: 70%;
+    cursor: pointer;
+    max-width: 80%;
+    text-align: center;
+    left: 50%;
+    margin-right: -50%;
+    font-size: 1em;
+    text-shadow: 1px 5px 10px #000000;    
+    transform: translate(-50%, -50%);
+    transition-duration: 300ms;
+    display: none;
+
+}
+
+.container:hover img{
+    animation-name: img;
+    animation-duration: 700ms;
+    animation-fill-mode: forwards;   
+}
+
+.container:hover span{
+    display: block;
+    color: #ffffff;
+    transition-duration: 300ms;    
+    animation-name: img;
+    animation-duration: 700ms;
+    animation-fill-mode: forwards; 
+}
+
+@keyframes img{
+    from{
+        transform: scale(1);        
+        filter: grayscale(0%);
+        opacity: 1;
+    }to{
+        transform: scale(1.2);        
+        filter: grayscale(50%);
+        opacity: .5;
+    }
+}

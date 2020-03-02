@@ -17,6 +17,13 @@ main{
     margin: 0 auto;
     overflow: hidden;
 }
+#seta{
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    width: 20px;
+    height: 20px;
+}
 
 /* estilo do topo e menu */
 header{
