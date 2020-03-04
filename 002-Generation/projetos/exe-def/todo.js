@@ -22,7 +22,10 @@ function onAddClicked() {
     var description = document.getElementById("description").value;
     var dueDate = document.getElementById("dueDate").value;
 
-    dueDate = dueDate.split("-").reverse().join(" \/ ");
+    let novadt = new Date(dueDate);
+    novadt.getDate() + '/'
+
+    // dueDate = dueDate.split("-").reverse().join(" \/ ");
 
     var todo = new Todo(description, dueDate);
 
