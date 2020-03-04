@@ -16,21 +16,21 @@
 //     }
 // });
 
-function verificaComparacoes(letras) {
-    for (let i = 0; i < letras.length; i++) {
-        document.write(letras[i] + ", ");
-        let char = letras[i];
-        for (let j = 0; j < letras.length; j++) {
+// function verificaComparacoes(letras) {
+//     for (let i = 0; i < letras.length; i++) {
+//         document.write(letras[i] + ", ");
+//         let char = letras[i];
+//         for (let j = 0; j < letras.length; j++) {
 
 
-            if (char.indexOf(letras[j])) {
-                char = char + letras[j];
-                document.write(char + ", ");
-            }
+//             if (char.indexOf(letras[j])) {
+//                 char = char + letras[j];
+//                 document.write(char + ", ");
+//             }
 
-        }
-    }
-}
+//         }
+//     }
+// }
 
 // document.getElementById('btn').addEventListener('click', () => {
 
@@ -88,20 +88,7 @@ function comparacoes(cont, letras) {
 }
 
 document.getElementById('btn').addEventListener('click', () => {
-    let todasPalavras = '';
     let palavra = document.getElementById('text').value;
-
-
-
-    // for (let i = 0; i < palavra.length; i++) {
-    //     if (i < (palavra.length - 1)) {
-    //         document.write(palavra[i] + ", ");
-    //     } else {
-    //         document.write(palavra[i] + ". ");
-    //     }
-
-
-    // }
 
     document.write(comparacoesCompleta(palavra));
 
