@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
   <!-- Required meta tags -->
@@ -12,7 +12,7 @@
 
   <title>Introduction to JavaScript!</title>
   <style>
-    #botao {
+    #btn-remove {
       margin: 0 15px;
     }
   </style>
@@ -33,9 +33,8 @@
         <label for="dueDate" class="sr-only">Due Date</label>
         <input type="date" class="form-control" id="dueDate" placeholder="dueDate">
       </div>
-      <button type="button" class="btn btn-primary mb-2 btn-success" onclick="onAddClicked()">Add</button>
-      <button type="button" id="botao" class="btn btn-primary mb-2 btn-danger" onclick="clearTodos()">Excluir
-        Lista</button>
+      <button type="button" id="btn-add" class="btn btn-primary mb-2 btn-success">Add</button>
+      <button type="button" id="btn-remove" class="btn btn-primary mb-2 btn-danger">Excluir Lista</button>
     </form>
 
     <div style="visibility: hidden;" class="alert alert-danger" role="alert" id="alert">
@@ -48,7 +47,6 @@
           TODOs List
         </div>
         <ul class="list-group list-group-flush" id="todosList">
-          <li class="list-group-item">Implement TODO - 15-10-2019</li>
         </ul>
       </div>
     </div>
