@@ -1,0 +1,18 @@
+[
+    {
+        "isbn": "9781593275846",
+        "title": "O chamado da Floresta",
+        "autor": "Jack London",
+        "publish_date": "2003-03-13",
+        "publisher": "Jazon Books",
+        "numOfPages": 254
+    },
+    {
+        "isbn": "9781938165324",
+        "title": "O lado bom da Vida",
+        "autor": "Matthew Quick",
+        "publish_date": "2003-05-20",
+        "publisher": "Intríseca",
+        "numOfPages": 256
+    }
+]
