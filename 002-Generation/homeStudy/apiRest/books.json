@@ -1,0 +1,34 @@
+[
+    {
+        "isbn": "9876543210",
+        "title": "A vida é bela",
+        "author": "Hugo Dias",
+        "publish_date": "2014-12-14",
+        "publisher": "Senac",
+        "numOfPage": 472
+    },
+    {
+        "isbn": "9876543211",
+        "title": "Luluzinha",
+        "author": "Hugo Nostaugia",
+        "publish_date": "1992-06-12",
+        "publisher": "Generation",
+        "numOfPage": 832
+    },
+    {
+        "isbn": "9876543212",
+        "title": "Bolinha",
+        "author": "Hugo Nostaugia",
+        "publish_date": "1993-07-13",
+        "publisher": "Nostaugicus",
+        "numOfPage": 500
+    },
+    {
+        "isbn": "9876543213",
+        "title": "Indo ao jardim",
+        "author": "Hugo Cuma",
+        "publish_date": "2222-02-22",
+        "publisher": "Alucination",
+        "numOfPage": 222
+    }
+]
