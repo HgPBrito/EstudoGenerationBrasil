@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinamento com Bootstrap</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <h1 class="text-primary text-center">Bootstrap - Básico 2</h1>
+    <br>
+
+    <a class="btn btn-outline-dark" href="./bootstrapInt.html" role="button">Introdução</a>
+    <a class="btn btn-outline-dark" href="./bootstrapB1.html" role="button">Básico 1</a>
+    <a class="btn btn-outline-dark" href="./bootstrapB2.html" role="button">Básico 2</a>
+    <a class="btn btn-outline-dark" href="./bootstrapB3.html" role="button">Básico 3</a>
+    <a class="btn btn-outline-dark" href="./bootstrapB4.html" role="button">Básico 4</a>
+    <a class="btn btn-outline-dark" href="./bootstrapB5.html" role="button">Básico 5</a>
+    <br><br>
+
+    <h2>Tipografia e texto</h2>
+    <p>
+        Classes e customizaçoes suportadas pelo bootstrap para modificar o estilo dos textos, como tamanho, cor,
+        alinhamento e etc.
+    </p>
+    <br>
+
+    <h3>Classes .h1 a .h6</h3>
+    <p>
+        Aplicando quando desejado o estilo correspondente a formatação de um título.
+    </p>
+    <p class="h1">.h1 Correspondente ao título nivel 1</p>
+    <p class="h2">.h2 Correspondente ao título nivel 2</p>
+    <p class="h3">.h3 Correspondente ao título nivel 3</p>
+    <p class="h4">.h4 Correspondente ao título nivel 4</p>
+    <p class="h5">.h5 Correspondente ao título nivel 5</p>
+    <p class="h6">.h6 Correspondente ao título nivel 6</p>
+    <br>
+
+    <h3>Classes .display-1 a .display-4</h3>
+    <p>
+        Podendo ser utilizado para quando quiser destacar um título.
+    </p>
+    <h1 class="display-1">Display 1</h1>
+    <h1 class="display-2">Display 2</h1>
+    <h1 class="display-3">Display 3</h1>
+    <h1 class="display-4">Display 4</h1>
+    <br>
+
+    <h3>Classe .lead</h3>
+    <p>
+        Utilizado para destacar um parágrafo.
+    </p>
+    <p class="lead">Exemplo de parágrafo com .lead</p>
+    <br>
+
+    <h3>Elementos de texto (inline text)</h3>
+    <p>
+        Estilo para os elementos de texto inline do HTML5.
+    </p>
+    <p>Você pode marcar para <mark>destacar</mark> um texto.</p>
+    <p><del>Esta linha pode ser tratada como um texto excluído.</del></p>
+    <p><s>Esta linha pode ser tratada como algo que não precisa mais.</s></p>
+    <p><ins>Esta linha pode ser tratada como uma adição ao texto.</ins></p>
+    <p><u>Esta linha é renderisada como sublinhada.</u></p>
+    <p><strong>Esta linha é renderisada em negrito.</strong></p>
+    <p><em>Esta linha é renderisada em itálico.</em></p>
+    <br>
+
+    <h3>Weight e itálico</h3>
+    <p class="font-weight-bold">Negrito</p>
+    <p class="font-weight-normal">Normal</p>
+    <p class="font-weight-light">Fino</p>
+    <p class="font-italic">Itálico</p>
+    <br>
+
+    <h3>Listas na mesma linha</h3>
+    <p>Remove os marcadores de uma lista e exibe os itens na mesma linha</p>
+    <ul class="list-inline">
+        <li class="list-inline-item">Abacaxi</li>
+        <li class="list-inline-item">Banana</li>
+        <li class="list-inline-item">Graviola</li>
+    </ul>
+    <br>
+
+    <h3>Alinhamento do texto</h3>
+    <p class="text-left">.text-left Texto alinhado a esquerda</p>
+    <p class="text-center">.text-center Texto alinhado ao centro</p>
+    <p class="text-right">.text-right Texto alinhado a direita</p>
+    <p class="text-justify">
+        .text-justify Texto justificado (Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        Reprehenderit, veritatis eum optio quae rem qui? Tenetur aut incidunt quidem, odit fuga, quasi ad illo optio
+        officiis minus magni inventore commodi!
+        Aut, voluptatum sit. Dolor autem harum id qui repudiandae rerum architecto quidem temporibus, et, perferendis
+        voluptas, laboriosam cumque nisi. Provident libero aliquam nesciunt est voluptate ipsam blanditiis? Officia,
+        repellat sed?
+        Provident, dolore, quo vero iste quos, voluptatem modi impedit eligendi quaerat rem et ea. Autem, nisi
+        voluptatum dolor ullam enim aperiam ipsa labore! Iusto dolorem libero quasi rerum alias corporis?
+    </p>
+    <br>
+
+    <h3>Quebra de texto</h3>
+    <div class="text-wrap bg-primary" style="width: 12rem;">
+        .text-wrap para quebrar o texto de acordo com a div.
+    </div>
+    <br>
+    <div class="text-nowrap bg-primary" style="width: 12rem;">
+        .text-nowrap para não quebrar o texto ultrapassado no tamanho da div.
+    </div>
+    <br>
+
+    <h3>Captalização de texto</h3>
+    <p class="text-lowercase">Texto em minúsculo</p>
+    <p class="text-uppercase">Texto em maiúsculo</p>
+    <p class="text-capitalize">texto captalizado</p>
+    <br>
+
+    <h3>Cor de texto</h3>
+    <p class="text-primary">.text-primary</p>
+    <p class="text-secondary">.text-secondary</p>
+    <p class="text-success">.text-success</p>
+    <p class="text-danger">.text-danger</p>
+    <p class="text-warning">.text-warning</p>
+    <p class="text-info">.text-info</p>
+    <p class="text-light bg-dark">.text-light</p>
+    <p class="text-body">.text-body</p>
+    <p class="text-muted">.text-muted</p>
+    <p class="text-write bg-dark">.text-write</p>
+    <p class="text-write-50 bg-dark">.text-write-50</p>
+    <p class="text-black-50">.text-black-50</p>
+    <br>
+
+    <h3>Referências</h3>
+    <b>Bootstrap</b>, página <a href="https://getbootstrap.com/docs/4.4/content/typography/"
+        target="_blank">Typography</a><br>
+    <b>Bootstrap</b>, página <a href="https://getbootstrap.com/docs/4.4/utilities/text/" target="_blank">Utilities -
+        Text</a><br>
+    <b>Bootstrap</b>, página <a href="https://getbootstrap.com/docs/4.4/utilities/colors/" target="_blank">Colors</a>
+
+
+    <script src="./node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

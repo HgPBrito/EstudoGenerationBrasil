@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinamento com Bootstrap</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <h1 class="text-primary text-center">Bootstrap - Básico 4</h1>
+    <br>
+
+    <a class="btn btn-outline-dark" href="./bootstrapInt.html" role="button">Introdução</a>
+    <a class="btn btn-outline-dark" href="./bootstrapB1.html" role="button">Básico 1</a>
+    <a class="btn btn-outline-dark" href="./bootstrapB2.html" role="button">Básico 2</a>
+    <a class="btn btn-outline-dark" href="./bootstrapB3.html" role="button">Básico 3</a>
+    <a class="btn btn-outline-dark" href="./bootstrapB4.html" role="button">Básico 4</a>
+    <a class="btn btn-outline-dark" href="./bootstrapB5.html" role="button">Básico 5</a>
+    <br><br>
+
+    <h2>Layout</h2>
+    <h3>Conteiner</h3>
+    <p>
+        Os conteiners são os elementos de Layout mais básicos no bootstrap e são usados para conter, preencher e as
+        vezes centralizar o conteudo dentro deles.
+    </p>
+    <p>
+        Por padrão o bootstrap estabelece os pontos de quuebra (media query) para alguns tamanhos de tela/janelas(são
+        responsivos).
+    </p>
+    <br><br>
+    <table class="table">
+        <thead>
+            <tr>
+                <th></th>
+                <th>
+                    Extra small<br>
+                    <span class="font-weight-normal">&lt;576px</span>
+                </th>
+                <th>
+                    Small<br>
+                    <span class="font-weight-normal">≥576px</span>
+                </th>
+                <th>
+                    Medium<br>
+                    <span class="font-weight-normal">≥768px</span>
+                </th>
+                <th>
+                    Large<br>
+                    <span class="font-weight-normal">≥992px</span>
+                </th>
+                <th>
+                    Extra large<br>
+                    <span class="font-weight-normal">≥1200px</span>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><code>.container</code></td>
+                <td class="text-muted">100%</td>
+                <td>540px</td>
+                <td>720px</td>
+                <td>960px</td>
+                <td>1140px</td>
+            </tr>
+            <tr>
+                <td><code>.container-sm</code></td>
+                <td class="text-muted">100%</td>
+                <td>540px</td>
+                <td>720px</td>
+                <td>960px</td>
+                <td>1140px</td>
+            </tr>
+            <tr>
+                <td><code>.container-md</code></td>
+                <td class="text-muted">100%</td>
+                <td class="text-muted">100%</td>
+                <td>720px</td>
+                <td>960px</td>
+                <td>1140px</td>
+            </tr>
+            <tr>
+                <td><code>.container-lg</code></td>
+                <td class="text-muted">100%</td>
+                <td class="text-muted">100%</td>
+                <td class="text-muted">100%</td>
+                <td>960px</td>
+                <td>1140px</td>
+            </tr>
+            <tr>
+                <td><code>.container-xl</code></td>
+                <td class="text-muted">100%</td>
+                <td class="text-muted">100%</td>
+                <td class="text-muted">100%</td>
+                <td class="text-muted">100%</td>
+                <td>1140px</td>
+            </tr>
+            <tr>
+                <td><code>.container-fluid</code></td>
+                <td class="text-muted">100%</td>
+                <td class="text-muted">100%</td>
+                <td class="text-muted">100%</td>
+                <td class="text-muted">100%</td>
+                <td class="text-muted">100%</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    Exemplos:
+    <br><br>
+    <div class="container bg-primary text-center text-light p-2">.container</div>
+    <br>
+    <div class="container-sm bg-primary text-center text-light p-2">.container-sm</div>
+    <br>
+    <div class="container-md bg-primary text-center text-light p-2">.container-md</div>
+    <br>
+    <div class="container-lg bg-primary text-center text-light p-2">.container-lg</div>
+    <br>
+    <div class="container-xl bg-primary text-center text-light p-2">.container-xl</div>
+    <br>
+    <div class="container-fluid bg-primary text-center text-light p-2">.container-fluid</div>
+    <br>
+
+    <h3>Referências</h3>
+    <b>Bootstrap</b>, página <a href="https://getbootstrap.com/docs/4.4/layout/overview/" target="_blank">Layout -
+        Overview</a><br>
+
+
+    <script src="./node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

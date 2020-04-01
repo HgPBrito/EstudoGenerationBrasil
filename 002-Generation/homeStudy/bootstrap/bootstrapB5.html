@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinamento com Bootstrap</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <h1 class="text-primary text-center">Bootstrap - Básico 5</h1>
+    <br>
+
+    <a class="btn btn-outline-dark" href="./bootstrapInt.html" role="button">Introdução</a>
+    <a class="btn btn-outline-dark" href="./bootstrapB1.html" role="button">Básico 1</a>
+    <a class="btn btn-outline-dark" href="./bootstrapB2.html" role="button">Básico 2</a>
+    <a class="btn btn-outline-dark" href="./bootstrapB3.html" role="button">Básico 3</a>
+    <a class="btn btn-outline-dark" href="./bootstrapB4.html" role="button">Básico 4</a>
+    <a class="btn btn-outline-dark" href="./bootstrapB5.html" role="button">Básico 5</a>
+    <br><br>
+
+    <h2>Layout</h2>
+    <h3>Sistema de Grade (flexbox)</h3>
+    <p>
+        O sistema de grade no bootstrab utiliza uma serie de containers, linhas e colunas para uma definição de layout e
+        alinhamento o conteudo. Ele é construído com o flexbox sendo totalmente responsivo.
+    </p>
+
+    <h4>Utilizando linhas e colunas</h4>
+    <div class="container">
+        <div class="row">
+            <div class="col border">Coluna1</div>
+            <div class="col border">Coluna2</div>
+            <div class="col border">Coluna3</div>
+            <div class="col border">Coluna4</div>
+            <div class="col border">Coluna5</div>
+            <div class="col border">Coluna6</div>
+            <div class="col border">Coluna7</div>
+            <div class="col border">Coluna8</div>
+            <div class="col border">Coluna9</div>
+            <div class="col border">Coluna10</div>
+            <div class="col border">Coluna11</div>
+            <div class="col border">Coluna12</div>
+        </div>
+        <div class="row">
+            <div class="col border">Coluna1</div>
+            <div class="col border">Coluna2</div>
+            <div class="col border">Coluna3</div>
+            <div class="col border">Coluna4</div>
+        </div>
+        <div class="row">
+            <div class="col-6 border">Coluna1</div>
+            <div class="col-2 border">Coluna2</div>
+            <div class="col-3 border">Coluna3</div>
+            <div class="col-1 border">Coluna4</div>
+        </div>
+    </div>
+    <br>
+
+    <h4>Definindo quantidade de colunas por linha</h4>
+    <div class="container">
+        <div class="row row-cols-3">
+            <div class="col border">Coluna1</div>
+            <div class="col border">Coluna2</div>
+            <div class="col border">Coluna3</div>
+            <div class="col border">Coluna4</div>
+            <div class="col border">Coluna5</div>
+            <div class="col border">Coluna6</div>
+            <div class="col border">Coluna7</div>
+            <div class="col border">Coluna8</div>
+            <div class="col border">Coluna9</div>
+            <div class="col border">Coluna10</div>
+            <div class="col border">Coluna11</div>
+            <div class="col border">Coluna12</div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div class="col border">Coluna1</div>
+            <div class="col border">Coluna2</div>
+            <div class="col border">Coluna3</div>
+            <div class="col border">Coluna4</div>
+            <div class="col border">Coluna5</div>
+            <div class="col border">Coluna6</div>
+            <div class="col border">Coluna7</div>
+            <div class="col border">Coluna8</div>
+            <div class="col border">Coluna9</div>
+            <div class="col border">Coluna10</div>
+            <div class="col border">Coluna11</div>
+            <div class="col border">Coluna12</div>
+        </div>
+    </div>
+    <br>
+
+    <h3>Referências</h3>
+    <b>Bootstrap</b>, página <a href="https://getbootstrap.com/docs/4.4/layout/grid/" target="_blank">Layout -
+        Grid</a><br>
+
+
+
+    <script src="./node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
