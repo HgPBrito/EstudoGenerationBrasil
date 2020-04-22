@@ -1,0 +1,46 @@
+<main>
+
+    <div class="container mb-4">
+        <div class="row mt-5 mb-5">
+            <div class="col-md-12">
+                <h1 class="text-center">Entre em contato conosco</h1>
+            </div>
+
+            <div class="col-md-12 mt-4">
+                <p class="h5">Surgiu alguma dúvida ou sugestão para o site? Nos envie uma mensagem e responderemos o
+                    mais breve possível.</p>
+            </div>
+        </div>
+
+        <form>
+            <div class="form-row">
+                <div class="col-md-4">
+                    <label for="firstName">Nome</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="Nome" required minlength="3">
+                </div>
+                <div class="col-md-8">
+                    <label for="lastName">Sobrenome</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Sobrenome">
+                </div>
+                <div class="col-md-12 mt-4">
+                    <label for="mail">E-mail</label>
+                    <input type="email" class="form-control" id="mail" placeholder="E-mail" required email>
+                </div>
+                <div class="col-md-12 mt-4">
+                    <label for="subject">Assunto</label>
+                    <input type="text" class="form-control" id="subject" placeholder="Assunto" required minlength="5">
+                </div>
+                <div class="col-md-12 mt-4">
+                    <label for="message">Mensagem</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Deixe sua mensagem" required
+                        minlength="15"></textarea>
+                </div>
+            </div>
+            <div class="btn-group ml-auto d-flex justify-content-end">
+                <button type="reset" class="btn btn-outline-secondary mt-4 mr-3">Limpar</button>
+                <button type="submit" class="btn btn-outline-secondary mt-4">Enviar</button>
+            </div>
+        </form>
+    </div>
+
+</main>
