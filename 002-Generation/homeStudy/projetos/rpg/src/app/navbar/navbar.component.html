@@ -1,20 +1,30 @@
-<nav class="navbar navbar-expand-lg text-light navbar-dark">
+<div class="menu container-fluid py-1">
 
-    <a class="navbar-brand d-flex flex-row  justify-align-center align-items-center" routerLink='/home'>
-        <fa-icon [icon]="faDiceD20" class="faDiceD20 p-1"></fa-icon>
-        <div> RPG! </div>
-    </a>
+    <nav class="nav1 my-1 container-xl navbar navbar-expand-lg text-light navbar-light rounded-pill px-5 d-flex">
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-            <a class="nav-link texto p-3 text-uppercase text-monospace font-weight-bold" routerLink='/home'>
-                Home<span class="sr-only">(página atual)</span></a>
-            <a class="nav-link texto p-3 text-uppercase text-monospace font-weight-bold"
-                routerLink='/contact'>Contato</a>
+        <div class="flex-fill">
+            <a class="navbar-brand" routerLink='/home'>
+                <fa-icon [icon]="faDiceD20" class="faDiceD20 p-1"></fa-icon>
+                <span>RPG!</span>
+            </a>
         </div>
-    </div>
-</nav>
+
+        <button class="hamburguer navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <fa-icon [icon]="faDiceD20" class="faDiceD20 p-1"></fa-icon>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav d-flex justify-content-center align-items-center">
+                <a id="home" class="nav-link p-3 text-uppercase border-right text-monospace font-weight-bold"
+                    routerLink='/home'>Home</a>
+
+
+                <a class="nav-link p-3 text-uppercase text-monospace font-weight-bold" routerLink='/contact'>Contato</a>
+            </div>
+        </div>
+
+    </nav>
+
+</div>
